@@ -2,12 +2,20 @@
   text-align: center;
 }
 
+.mainTitle {
+  color: aqua;
+}
+
 .box {
   height: 80px;
   width: 80px;
-  border: 1px solid black;
+  border: 1px solid white;
   display: inline-block;
   line-height: 80px;
+  color: aqua;
+  font-family: arial;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .board {
@@ -15,4 +23,12 @@
   flex-wrap: wrap;
   width: 246px;
   border: 1px solid black;
+}
+
+.playerForm {
+  color: aqua;
+}
+
+.status {
+  color: white;
 }
